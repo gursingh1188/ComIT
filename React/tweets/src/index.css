@@ -1,0 +1,24 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.tweet{
+    display: flex;
+    width: 35rem;
+    min-height: 4rem;
+    border: 1px solid #ccc;
+    padding:0.6rem;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    border-radius: 1rem;
+}
+.avatar{
+    flex:1;
+    height:3rem;
+    border-radius:3rem;
+    margin-right: 0.6rem;
+
+}
+.content{
+    flex:9;
+}
